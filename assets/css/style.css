@@ -612,6 +612,9 @@ strong {
         margin-top: 50px;
         width: 1fr;
     }
+    .introduction__button {
+        margin-top: 15px;
+    }
     .services__card {
         display: flex;
         flex-direction: row;
@@ -924,5 +927,11 @@ strong {
     .contact__form {
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .introduction__button {
+        margin-top: 0;
     }
 }
