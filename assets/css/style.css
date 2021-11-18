@@ -66,6 +66,7 @@ strong {
     background-color: var(--container-color);
     align-items: center;
     position: fixed;
+    z-index: 10003;
 }
 
 .nav__logo {
@@ -122,7 +123,7 @@ strong {
     cursor: pointer;
     position: relative;
     outline: none;
-    z-index: 10000;
+    z-index: 10002;
     display: none;
 }
 
@@ -137,6 +138,8 @@ strong {
 
 #header.transparent {
     background-color: var(--body-color);
+    transition: 0.5s;
+    opacity: 0.9;
 }
 
 .container {
@@ -568,7 +571,6 @@ strong {
     .header {
         height: 4.5rem;
         position: fixed;
-        z-index: 10001;
         margin-bottom: 50px;
     }
     .container {
@@ -713,7 +715,6 @@ strong {
         height: 4rem;
         justify-content: space-around;
         position: fixed;
-        z-index: 10001;
     }
     .nav__bar {
         display: flex;
@@ -778,7 +779,6 @@ strong {
         right: -300%;
         padding: 80px 50px;
         transition: right .3s;
-        z-index: 1000;
     }
     .nav__list {
         display: block;
@@ -861,7 +861,6 @@ strong {
         right: 0;
         padding: 80px 50px;
         transition: top .3s;
-        z-index: 1000;
         border-radius: 0 0 20px 20px;
         text-align: center;
     }
