@@ -8,10 +8,6 @@
     overflow-x: hidden;
 }
 
-section, div, nav, main, .introduction, .introduction__img {
-    overflow-y: hidden;
-}
-
 :root {
     --body-color: #191B2C;
     --container-color: #22263B;
