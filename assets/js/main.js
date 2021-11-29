@@ -44,7 +44,7 @@ sr.reveal(".introduction__title", { origin: "left", delay: 300 });
 sr.reveal(".introduction__text", { origin: "left", delay: 400 });
 sr.reveal(".introduction__img", { delay: 500 });
 sr.reveal(".introduction__button__container", { origin: "left", delay: 600 });
-sr.reveal(".header", { origin: "top", reset: false });
+sr.reveal(".header", { origin: "top" });
 sr.reveal(".services__title", { origin: "left" });
 sr.reveal(".services__card", { origin: "bottom" });
 sr.reveal(".knowourwork__img__container");
@@ -58,7 +58,7 @@ sr.reveal("#assunto", { delay: 250 });
 sr.reveal("#email", { origin: "left", delay: 300 });
 sr.reveal("#msg", { delay: 350 });
 sr.reveal(".contact__button__container", { origin: "bottom" });
-sr.reveal(".footer", { origin: "bottom", reset: false });
+sr.reveal(".footer", { origin: "bottom" });
 
 // SCROLL ACTIVE LINKS
 
