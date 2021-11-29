@@ -18,6 +18,7 @@ $(".faq__layout").each(function () {
 // CLOSE MENU ON CLICK //
 $(".nav__link").on("click", () => {
 	$(".nav__bar").removeClass("active");
+	$(".menu-toggler").removeClass("active");
 });
 
 // TRANSPARENT MENU WHEN SCROLL DOWN //
