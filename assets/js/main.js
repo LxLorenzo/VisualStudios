@@ -36,7 +36,7 @@ const sr = ScrollReveal({
 	distance: "120px",
 	duration: 1500,
 	delay: 200,
-	reset: true,
+	reset: false,
 });
 
 sr.reveal(".introduction__description", { origin: "left" });
