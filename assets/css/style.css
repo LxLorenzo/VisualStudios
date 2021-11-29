@@ -8,6 +8,10 @@
     overflow-x: hidden;
 }
 
+section, div, nav, main {
+    overflow-y: hidden;
+}
+
 :root {
     --body-color: #191B2C;
     --container-color: #22263B;
@@ -230,7 +234,6 @@ strong {
     text-align: center;
     color: var(--text-color);
     padding: 20px 15px;
-    margin-bottom: 100px;
     transition: .3s;
     box-shadow: 3px 3px 10px #0e0f1a;
 }
@@ -252,6 +255,7 @@ strong {
 }
 
 .knowourwork {
+    padding-top: 110px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -392,7 +396,7 @@ strong {
     background-color: var(--container-color);
     width: 100%;
     padding: 30px 20px 20px 20px;
-    margin: 100px 0;
+    margin: 200px 0;
 }
 
 .contact__form {
@@ -451,6 +455,25 @@ strong {
     text-align: center;
     color: white;
     margin-top: 25px;
+}
+
+.active-link {
+    position: relative;
+}
+
+.active-link.nav__link {
+    color: var(--title-color);
+}
+
+.active-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+    width: 25px;
+    height: 3px;
+    background-color: var(--highlighted-color);
+    z-index: 150000;
 }
 
 @media screen and (min-width: 801px) {
