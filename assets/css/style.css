@@ -8,7 +8,7 @@
     overflow-x: hidden;
 }
 
-section, div, nav, main {
+section, div, nav, main, .introduction, .introduction__img {
     overflow-y: hidden;
 }
 
